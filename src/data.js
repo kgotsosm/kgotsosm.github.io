@@ -1,6 +1,6 @@
 import bitnine from "./assets/projects/bitnine.png";
 import bookconnect from "./assets/projects/bookconnect.png";
-import cloudcomputing from "./assets/projects/cloudcomputing.webp";
+import lyft from "./assets/projects/lyft.webp";
 import dataquest from "./assets/projects/dataquest.jpg";
 import podcastr from "./assets/projects/podcastr.jpeg";
 import webscraper from "./assets/projects/webscraper.png";
@@ -29,10 +29,10 @@ const projects = [
   },
   {
     title: "Lyft Backend Engineering",
-    description: "Virtual internship refactoring backed code",
-    image: cloudcomputing,
+    description: "Virtual internship refactoring backend code",
+    image: lyft,
     github:
-      "https://github.com/kgotsosm/cloud-computing-predict/tree/769bf0d362d682e1ff2ee20ab212de3f3a05ec5c",
+      "https://github.com/kgotsosm/Lyft-Backend-Engineering-Virtual-Experience",
   },
   {
     title: "Dataquest",
