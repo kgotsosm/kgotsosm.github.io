@@ -18,27 +18,27 @@ const Navbar = () => {
       </div>
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li className="hover:text-[#2097F3] px-4">
+        <li className="hover:text-[#2097F3] px-4 cursor-pointer">
           <Link activeClass="active" to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="hover:text-[#2097F3] px-4">
+        <li className="hover:text-[#2097F3] px-4 cursor-pointer">
           <Link activeClass="active" to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="hover:text-[#2097F3] px-4">
+        <li className="hover:text-[#2097F3] px-4 cursor-pointer">
           <Link activeClass="active" to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="hover:text-[#2097F3] px-4">
+        <li className="hover:text-[#2097F3] px-4 cursor-pointer">
           <Link activeClass="active" to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="hover:text-[#2097F3] px-4">
+        <li className="hover:text-[#2097F3] px-4 cursor-pointer">
           <Link activeClass="active" to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 items-center">
         <ul className="space-y-8">
-          <li className="flex justify-between px-4 text-3xl text-gray-300 hover:text-blue-500 transition duration-300 ease-in-out">
+          <li className="flex justify-between px-4 cursor-pointer text-3xl text-gray-300 hover:text-blue-500 transition duration-300 ease-in-out">
             <a
               href="https://www.linkedin.com/in/kgotso-makhalimele/"
               target="_blank"
@@ -97,7 +97,7 @@ const Navbar = () => {
               <FaLinkedin />
             </a>
           </li>
-          <li className="text-3xl text-gray-300 px-4 hover:text-yellow-300 transition duration-300 ease-in-out">
+          <li className="text-3xl text-gray-300 px-4 cursor-pointer hover:text-yellow-300 transition duration-300 ease-in-out">
             <a
               href="https://github.com/kgotsosm"
               target="_blank"
