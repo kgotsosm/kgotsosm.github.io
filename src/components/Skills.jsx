@@ -1,3 +1,4 @@
+import React from 'react';
 import aws from "../assets/tech/aws.png";
 import css from "../assets/tech/css.png";
 import github from "../assets/tech/github.png";

@@ -1,4 +1,5 @@
 // Purpose: Hero component for the portfolio website.
+import React from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 

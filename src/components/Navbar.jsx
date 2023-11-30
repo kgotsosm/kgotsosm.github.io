@@ -1,5 +1,5 @@
 // Purpose: Navbar component for the website
-import { useState } from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
