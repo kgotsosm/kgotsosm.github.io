@@ -7,4 +7,4 @@ Personal website
 
 ### Purpose
 
-Highlighting some of the projects I have completed by placing them in one place.
+Highlighting some of the projects I have completed and sharing articles around the projects that don't necessarily have a frontend.
