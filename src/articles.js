@@ -1,17 +1,17 @@
 const articles = [
     {
       title: "Storing Big Data",
-      description: "A guide on how to use React Context API",
+      description: "Building data pipeline to store data in cloud",
       url: "https://kgotsosm.hashnode.dev/how-to-use-react-context-api",
     },
     {
       title: "Processing Big Data",
-      description: "A guide on how to use React Router",
+      description: "Automating pipelines with Apache Airflow",
       url: "https://kgotsosm.hashnode.dev/how-to-use-react-router",
     },
     {
       title: "Moving Big Data",
-      description: "A guide on how to use React Hooks",
+      description: "Data pipelines with Apache Spark",
       url: "https://kgotsosm.hashnode.dev/how-to-use-react-hooks",
     }
   ];
