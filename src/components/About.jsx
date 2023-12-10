@@ -11,7 +11,6 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
         </div>
         <div className="max-w-[1000px] p-4 md:p-0 w-full md:grid grid-cols-2 gap-8">
           <div className="mb-6 md:mb-0">
