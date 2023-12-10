@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#08192F] flex justify-center items-center p-4 mt-10"
+      className="w-full h-[1000px] bg-[#08192F] flex justify-center items-center p-4 mt-10"
     >
       <form action="https://formspree.io/f/mnqyrbea"
             method="POST" 
