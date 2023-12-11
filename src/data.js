@@ -14,11 +14,11 @@ const projects = [
     github: "https://github.com/kgotsosm/bitnine-local",
   },
   {
-    title: "BookConnect",
-    description: "A book finding platform for readers",
-    image: bookconnect,
-    url: "https://bookconnect.netlify.app",
-    github: "https://github.com/kgotsosm/book-connect",
+    title: "Lyft Backend Engineering",
+    description: "Virtual internship refactoring backend code",
+    image: lyft,
+    github:
+      "https://github.com/kgotsosm/Lyft-Backend-Engineering-Virtual-Experience",
   },
   {
     title: "Podcastr",
@@ -28,11 +28,11 @@ const projects = [
     github: "https://github.com/kgotsosm/podcastr",
   },
   {
-    title: "Lyft Backend Engineering",
-    description: "Virtual internship refactoring backend code",
-    image: lyft,
-    github:
-      "https://github.com/kgotsosm/Lyft-Backend-Engineering-Virtual-Experience",
+    title: "BookConnect",
+    description: "A book finding platform for readers",
+    image: bookconnect,
+    url: "https://bookconnect.netlify.app",
+    github: "https://github.com/kgotsosm/book-connect",
   },
   {
     title: "Dataquest",
