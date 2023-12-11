@@ -12,11 +12,8 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Kgotso Makhalimele
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] ">
-            I&apos;m a Software Developer.
-        </h2>
         <p className="text-gray-300 py-4 max-w-[700px] lg:text-xl">
-           Combining my knowledge of data science and
+           Combining my knowledge of data management and
           software development, I have a passion for creating products that
           provide value to the end-user.
         </p>

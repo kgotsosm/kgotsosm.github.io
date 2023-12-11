@@ -17,7 +17,7 @@ const About = () => {
           <p className="px-2 lg:px-0 lg:py-14 lg:text-lg">
               My passion for learning and creating solutions with the latest
               technologies have guided my journey in tech. Combining my
-              knowledge of full stack web development with data science
+              knowledge of full stack web development with data engineering
               principles, I can create a range of solutions that are valuable to
               the end-user. The projects featured here are focused on creating solutions that
               can scale and incorporate best practices across a number of
