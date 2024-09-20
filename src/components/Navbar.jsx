@@ -23,11 +23,11 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="hover:text-[#2097F3] px-4 cursor-pointer">
+        {/* <li className="hover:text-[#2097F3] px-4 cursor-pointer">
           <Link activeClass="active" to="about" smooth={true} duration={500}>
             About
           </Link>
-        </li>
+        </li> */}
         <li className="hover:text-[#2097F3] px-4 cursor-pointer">
           <Link activeClass="active" to="skills" smooth={true} duration={500}>
             Skills

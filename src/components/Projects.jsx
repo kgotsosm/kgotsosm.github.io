@@ -17,9 +17,15 @@ const Projects = () => {
         </div>
 
         {/* Projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
           {projects.map((project) => (
             <div key={project.title} className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col">
+              <a
+                    className="text-[#2097F3] hover:text-yellow-400"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
               <img
                 className="w-full h-40 object-fill"
                 src={project.image}
@@ -29,14 +35,9 @@ const Projects = () => {
                 <p className="text-xl font-bold mb-4">{project.title}</p>
                 <p className="mb-4">{project.description}</p>
                 <div className="flex justify-between mt-auto font-bold">
-                  <a
-                    className="text-[#2097F3] hover:text-yellow-400"
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  
                     Github
-                  </a>
+                  
                   {project.url && (
                     <a
                       className="text-[#2097F3] hover:text-yellow-400"
@@ -47,8 +48,10 @@ const Projects = () => {
                       Demo
                     </a>
                   )}
+                  
                 </div>
               </div>
+              </a>
             </div>
           ))}
         </div>

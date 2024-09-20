@@ -1,5 +1,5 @@
 import React from 'react';
-import About from "./components/About"
+// import About from "./components/About"
 import Contact from "./components/Contact"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
@@ -12,7 +12,7 @@ function App() {
     <div className="bg-[#0a192f]">
       <Navbar />
       <Home />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Projects />
       <Contact />

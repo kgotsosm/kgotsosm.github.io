@@ -1,6 +1,5 @@
 // Purpose: About component for the portfolio website.
 import React from "react";
-import shuttle from "../assets/shuttle.jpg";
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
@@ -21,13 +20,6 @@ const About = () => {
               practices across a number of technologies and software development
               disciplines.
             </p>
-          </div>
-          <div>
-            <img
-              src={shuttle}
-              alt="space shuttle"
-              className="hidden lg:block h-42 object-contain"
-            />
           </div>
         </div>
       </div>
