@@ -18,7 +18,7 @@ const Home = () => {
           provide value to the end-user.
         </p>
         <div>
-        <Link activeClass="active" to="about" smooth={true} duration={500}>
+        <Link activeClass="active" to="projects" smooth={true} duration={500}>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#2097F3] hover:border-[#2097F3]">
             View Work
             <span className="group-hover:rotate-90 duration-300">
